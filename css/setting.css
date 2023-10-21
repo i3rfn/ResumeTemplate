@@ -1,0 +1,28 @@
+* {
+  margin: 5px 0px;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: lale;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #505050;
+}
+::-webkit-scrollbar-thumb {
+  background: #afafaf;
+}
+body {
+  background-color: #101111;
+}
+@font-face {
+  font-family: lale;
+  src: url(./partials/media/Lalezar-Regular.woff);
+}
+@font-face {
+  font-family: pop;
+  src: url(./partials/media/Poppins-Bold.woff);
+}

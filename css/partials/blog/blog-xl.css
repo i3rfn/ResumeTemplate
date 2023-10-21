@@ -1,0 +1,597 @@
+@media (min-width: 1200px) and (max-width: 1400px) {
+  div.container {
+    width: 70%;
+    height: 90vh;
+    margin: 0 auto;
+    border-radius: 0px 0px 25px 25px;
+    position: relative;
+  }
+
+  /* start header */
+
+  div.container > div.header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  div.container > div.header > div.logo {
+    width: 120px;
+    height: 70px;
+    background-image: url(../media/sitelogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    scale: 1.5;
+    margin-right: 20px;
+  }
+  div.container > div.header > div.menu {
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: left;
+  }
+  div.container > div.header > div.menu > div.fb > span {
+    display: none;
+  }
+  div.container > div.header > div.menu > ul {
+    list-style: none;
+    display: inline-flex;
+  }
+  div.container > div.header > div.menu > ul > li > a {
+    text-decoration: none;
+    color: #c7c7c7;
+    padding: 5px;
+    margin: 0px 5px;
+    line-height: 70px;
+    font-size: 20px;
+    transition: all 100ms;
+  }
+  div.container > div.header > div.menu > ul > li > a:hover {
+    border-bottom: 3px solid #8b8b8b;
+    color: white;
+  }
+  /* end header */
+  /* start content */
+
+  div.container > div.content {
+    width: 100%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #272727;
+    overflow: hidden;
+  }
+  div.container > div.content > div.header {
+    width: 100%;
+    height: 100px;
+    background-color: #424242;
+    text-align: center;
+    margin: 0;
+  }
+  div.container > div.content > div.header > h2 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #c7c7c7;
+    line-height: 100px;
+  }
+  div.container > div.content > div.header > h2:hover {
+    color: white;
+  }
+  div.container > div.content > div.ax {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-evenly;
+    margin: 40px 0;
+  }
+  div.container > div.content > div.ax > div.yek {
+    width: 45%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.yek > img {
+    width: 100%;
+    margin: 0;
+    transition: all 200ms linear;
+  }
+  div.container > div.content > div.ax > div.yek > img:hover {
+    opacity: 0.7;
+  }
+  div.container > div.content > div.ax > div.yek > span {
+    color: #424242;
+    position: absolute;
+    top: 80px;
+    scale: 0;
+  }
+  div.container > div.content > div.ax > div.yek > img:hover + span {
+    position: absolute;
+    top: 80px;
+    scale: 4;
+  }
+  div.container > div.content > div.ax > div.yek > p {
+    color: #424242;
+    font-size: 18px;
+  }
+  div.container > div.content > div.ax > div.yek > a {
+    width: 100%;
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  div.container > div.content > div.ax > div.yek > div.date {
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffffbb;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 8px;
+  }
+  div.container > div.content > div.ax > div.yek > div.date > p {
+    font-size: 22px;
+  }
+  div.container > div.content > div.ax > div.yek > div.date > p:nth-of-type(2) {
+    font-size: 20px;
+    margin-top: -15px;
+  }
+  div.container > div.content > div.ax > div.do {
+    width: 45%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.do > img {
+    width: 100%;
+    margin: 0;
+    transition: all 200ms linear;
+  }
+  div.container > div.content > div.ax > div.do > img:hover {
+    opacity: 0.7;
+  }
+  div.container > div.content > div.ax > div.do > span {
+    color: #424242;
+    position: absolute;
+    top: 80px;
+    scale: 0;
+  }
+  div.container > div.content > div.ax > div.do > img:hover + span {
+    position: absolute;
+    top: 80px;
+    scale: 4;
+  }
+  div.container > div.content > div.ax > div.do > p {
+    color: #424242;
+    font-size: 18px;
+  }
+  div.container > div.content > div.ax > div.do > a {
+    width: 100%;
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  div.container > div.content > div.ax > div.do > div.date {
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffffbb;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 8px;
+  }
+  div.container > div.content > div.ax > div.do > div.date > p {
+    font-size: 22px;
+  }
+  div.container > div.content > div.ax > div.do > div.date > p:nth-of-type(2) {
+    font-size: 20px;
+    margin-top: -15px;
+  }
+  div.container > div.content > div.ax > div.se {
+    width: 45%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.se > img {
+    width: 100%;
+    margin: 0;
+    transition: all 200ms linear;
+  }
+  div.container > div.content > div.ax > div.se > img:hover {
+    opacity: 0.7;
+  }
+  div.container > div.content > div.ax > div.se > span {
+    color: #424242;
+    position: absolute;
+    top: 80px;
+    scale: 0;
+  }
+  div.container > div.content > div.ax > div.se > img:hover + span {
+    position: absolute;
+    top: 80px;
+    scale: 4;
+  }
+  div.container > div.content > div.ax > div.se > p {
+    color: #424242;
+    font-size: 18px;
+  }
+  div.container > div.content > div.ax > div.se > a {
+    width: 100%;
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  div.container > div.content > div.ax > div.se > div.date {
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffffbb;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 8px;
+  }
+  div.container > div.content > div.ax > div.se > div.date > p {
+    font-size: 22px;
+  }
+  div.container > div.content > div.ax > div.se > div.date > p:nth-of-type(2) {
+    font-size: 20px;
+    margin-top: -15px;
+  }
+  div.container > div.content > div.ax > div.char {
+    width: 45%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.char > img {
+    width: 100%;
+    margin: 0;
+    transition: all 200ms linear;
+  }
+  div.container > div.content > div.ax > div.char > img:hover {
+    opacity: 0.7;
+  }
+  div.container > div.content > div.ax > div.char > span {
+    color: #424242;
+    position: absolute;
+    top: 80px;
+    scale: 0;
+  }
+  div.container > div.content > div.ax > div.char > img:hover + span {
+    position: absolute;
+    top: 80px;
+    scale: 4;
+  }
+  div.container > div.content > div.ax > div.char > p {
+    color: #424242;
+    font-size: 18px;
+  }
+  div.container > div.content > div.ax > div.char > a {
+    width: 100%;
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  div.container > div.content > div.ax > div.char > div.date {
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffffbb;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 8px;
+  }
+  div.container > div.content > div.ax > div.char > div.date > p {
+    font-size: 22px;
+  }
+  div.container
+    > div.content
+    > div.ax
+    > div.char
+    > div.date
+    > p:nth-of-type(2) {
+    font-size: 20px;
+    margin-top: -15px;
+  }
+  div.container > div.content > div.ax > div.pnj {
+    width: 45%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.pnj > img {
+    width: 100%;
+    margin: 0;
+    transition: all 200ms linear;
+  }
+  div.container > div.content > div.ax > div.pnj > img:hover {
+    opacity: 0.7;
+  }
+  div.container > div.content > div.ax > div.pnj > span {
+    color: #424242;
+    position: absolute;
+    top: 80px;
+    scale: 0;
+  }
+  div.container > div.content > div.ax > div.pnj > img:hover + span {
+    position: absolute;
+    top: 80px;
+    scale: 4;
+  }
+  div.container > div.content > div.ax > div.pnj > p {
+    color: #424242;
+    font-size: 18px;
+  }
+  div.container > div.content > div.ax > div.pnj > a {
+    width: 100%;
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  div.container > div.content > div.ax > div.pnj > div.date {
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffffbb;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 8px;
+  }
+  div.container > div.content > div.ax > div.pnj > div.date > p {
+    font-size: 22px;
+  }
+  div.container > div.content > div.ax > div.pnj > div.date > p:nth-of-type(2) {
+    font-size: 20px;
+    margin-top: -15px;
+  }
+  div.container > div.content > div.ax > div.shish {
+    width: 45%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.shish > img {
+    width: 100%;
+    margin: 0;
+    transition: all 200ms linear;
+  }
+  div.container > div.content > div.ax > div.shish > img:hover {
+    opacity: 0.7;
+  }
+  div.container > div.content > div.ax > div.shish > span {
+    color: #424242;
+    position: absolute;
+    top: 80px;
+    scale: 0;
+  }
+  div.container > div.content > div.ax > div.shish > img:hover + span {
+    position: absolute;
+    top: 80px;
+    scale: 4;
+  }
+  div.container > div.content > div.ax > div.shish > p {
+    color: #424242;
+    font-size: 18px;
+  }
+  div.container > div.content > div.ax > div.shish > a {
+    width: 100%;
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  div.container > div.content > div.ax > div.shish > div.date {
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffffbb;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 8px;
+  }
+  div.container > div.content > div.ax > div.shish > div.date > p {
+    font-size: 22px;
+  }
+  div.container
+    > div.content
+    > div.ax
+    > div.shish
+    > div.date
+    > p:nth-of-type(2) {
+    font-size: 20px;
+    margin-top: -15px;
+  }
+  div.container > div.content > div.ax > div.hft {
+    width: 45%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.hft > img {
+    width: 100%;
+    margin: 0;
+    transition: all 200ms linear;
+  }
+  div.container > div.content > div.ax > div.hft > img:hover {
+    opacity: 0.7;
+  }
+  div.container > div.content > div.ax > div.hft > span {
+    color: #424242;
+    position: absolute;
+    top: 80px;
+    scale: 0;
+  }
+  div.container > div.content > div.ax > div.hft > img:hover + span {
+    position: absolute;
+    top: 80px;
+    scale: 4;
+  }
+  div.container > div.content > div.ax > div.hft > p {
+    color: #424242;
+    font-size: 18px;
+  }
+  div.container > div.content > div.ax > div.hft > a {
+    width: 100%;
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  div.container > div.content > div.ax > div.hft > div.date {
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffffbb;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 8px;
+  }
+  div.container > div.content > div.ax > div.hft > div.date > p {
+    font-size: 22px;
+  }
+  div.container > div.content > div.ax > div.hft > div.date > p:nth-of-type(2) {
+    font-size: 20px;
+    margin-top: -15px;
+  }
+  div.container > div.content > div.ax > div.hsht {
+    width: 45%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.hsht > img {
+    width: 100%;
+    margin: 0;
+    transition: all 200ms linear;
+  }
+  div.container > div.content > div.ax > div.hsht > img:hover {
+    opacity: 0.7;
+  }
+  div.container > div.content > div.ax > div.hsht > span {
+    color: #424242;
+    position: absolute;
+    top: 80px;
+    scale: 0;
+  }
+  div.container > div.content > div.ax > div.hsht > img:hover + span {
+    position: absolute;
+    top: 80px;
+    scale: 4;
+  }
+  div.container > div.content > div.ax > div.hsht > p {
+    color: #424242;
+    font-size: 18px;
+  }
+  div.container > div.content > div.ax > div.hsht > a {
+    width: 100%;
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  div.container > div.content > div.ax > div.hsht > div.date {
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffffbb;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 8px;
+  }
+  div.container > div.content > div.ax > div.hsht > div.date > p {
+    font-size: 22px;
+  }
+  div.container
+    > div.content
+    > div.ax
+    > div.hsht
+    > div.date
+    > p:nth-of-type(2) {
+    font-size: 20px;
+    margin-top: -15px;
+  }
+}

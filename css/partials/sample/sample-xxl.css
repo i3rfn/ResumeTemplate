@@ -1,0 +1,934 @@
+@media (min-width: 1400px) and (max-width: 1600px) {
+  div.container {
+    width: 60%;
+    height: 90vh;
+    margin: 0 auto;
+    border-radius: 0px 0px 25px 25px;
+    position: relative;
+  }
+
+  /* start header */
+
+  div.container > div.header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  div.container > div.header > div.logo {
+    width: 120px;
+    height: 70px;
+    background-image: url(../media/sitelogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    scale: 1.7;
+    margin-right: 20px;
+  }
+  div.container > div.header > div.menu {
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: left;
+  }
+  div.container > div.header > div.menu > div.fa > span {
+    display: none;
+  }
+  div.container > div.header > div.menu > ul {
+    list-style: none;
+    display: inline-flex;
+  }
+  div.container > div.header > div.menu > ul > li > a {
+    text-decoration: none;
+    color: #c7c7c7;
+    padding: 10px;
+    margin: 0px 5px;
+    line-height: 70px;
+    font-size: 20px;
+    transition: all 100ms;
+  }
+  div.container > div.header > div.menu > ul > li > a:hover {
+    border-bottom: 3px solid #8b8b8b;
+    color: white;
+  }
+  /* end header */
+
+  /* start content */
+
+  div.container > div.content {
+    width: 100%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #272727;
+    overflow: hidden;
+  }
+  div.container > div.content > div.header {
+    width: 100%;
+    height: 120px;
+    background-color: #424242;
+    text-align: center;
+    margin: 0;
+  }
+  div.container > div.content > div.header > h2 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #c7c7c7;
+    line-height: 120px;
+  }
+  div.container > div.content > div.header > h2:hover {
+    color: white;
+  }
+  div.container > div.content > div.txt {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  div.container > div.content > div.txt > ul {
+    width: 300px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  div.container > div.content > div.txt > ul > li {
+    filter: drop-shadow(3px 3px 3px black);
+  }
+  div.container > div.content > div.txt > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    filter: drop-shadow(2px 2px 1px black);
+    background-color: #8b8b8b91;
+    padding: 5px 15px;
+    border-radius: 10px;
+  }
+  div.container > div.content > div.txt > ul > li:hover > a {
+    background-color: #8b8b8b;
+  }
+  div.container > div.content > div.ax {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-evenly;
+    margin: 20px 0;
+  }
+
+  div.container > div.content > div.ax > div.yek {
+    width: 30%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.yek > img {
+    width: 100%;
+    margin: 0;
+    transition: all 300ms linear;
+  }
+  div.container > div.content > div.ax > div.yek > img:hover {
+    opacity: 0.4;
+  }
+  div.container > div.content > div.ax > div.yek > span {
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    scale: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.yek > h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.yek > p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.yek > img:hover + span {
+    position: absolute;
+    color: #2e2e2e;
+    bottom: 20px;
+    left: 20px;
+    scale: 2;
+  }
+  div.container > div.content > div.ax > div.yek > img:hover ~ h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.yek > img:hover ~ p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 1;
+  }
+
+  div.container > div.content > div.ax > div.do {
+    width: 30%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.do > img {
+    width: 100%;
+    margin: 0;
+    transition: all 300ms linear;
+  }
+  div.container > div.content > div.ax > div.do > img:hover {
+    opacity: 0.4;
+  }
+  div.container > div.content > div.ax > div.do > span {
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    scale: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.do > h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.do > p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.do > img:hover + span {
+    position: absolute;
+    color: #2e2e2e;
+    bottom: 20px;
+    left: 20px;
+    scale: 2;
+  }
+  div.container > div.content > div.ax > div.do > img:hover ~ h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.do > img:hover ~ p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 1;
+  }
+
+  div.container > div.content > div.ax > div.se {
+    width: 30%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.se > img {
+    width: 100%;
+    margin: 0;
+    transition: all 300ms linear;
+  }
+  div.container > div.content > div.ax > div.se > img:hover {
+    opacity: 0.4;
+  }
+  div.container > div.content > div.ax > div.se > span {
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    scale: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.se > h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.se > p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.se > img:hover + span {
+    position: absolute;
+    color: #2e2e2e;
+    bottom: 20px;
+    left: 20px;
+    scale: 2;
+  }
+  div.container > div.content > div.ax > div.se > img:hover ~ h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.se > img:hover ~ p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.char {
+    width: 30%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.char > img {
+    width: 100%;
+    margin: 0;
+    transition: all 300ms linear;
+  }
+  div.container > div.content > div.ax > div.char > img:hover {
+    opacity: 0.4;
+  }
+  div.container > div.content > div.ax > div.char > span {
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    scale: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.char > h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.char > p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.char > img:hover + span {
+    position: absolute;
+    color: #2e2e2e;
+    bottom: 20px;
+    left: 20px;
+    scale: 2;
+  }
+  div.container > div.content > div.ax > div.char > img:hover ~ h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.char > img:hover ~ p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.pnj {
+    width: 30%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.pnj > img {
+    width: 100%;
+    margin: 0;
+    transition: all 300ms linear;
+  }
+  div.container > div.content > div.ax > div.pnj > img:hover {
+    opacity: 0.4;
+  }
+  div.container > div.content > div.ax > div.pnj > span {
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    scale: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.pnj > h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.pnj > p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.pnj > img:hover + span {
+    position: absolute;
+    color: #2e2e2e;
+    bottom: 20px;
+    left: 20px;
+    scale: 2;
+  }
+  div.container > div.content > div.ax > div.pnj > img:hover ~ h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.pnj > img:hover ~ p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.shish {
+    width: 30%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.shish > img {
+    width: 100%;
+    margin: 0;
+    transition: all 300ms linear;
+  }
+  div.container > div.content > div.ax > div.shish > img:hover {
+    opacity: 0.4;
+  }
+  div.container > div.content > div.ax > div.shish > span {
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    scale: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.shish > h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.shish > p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.shish > img:hover + span {
+    position: absolute;
+    color: #2e2e2e;
+    bottom: 20px;
+    left: 20px;
+    scale: 2;
+  }
+  div.container > div.content > div.ax > div.shish > img:hover ~ h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.shish > img:hover ~ p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.hft {
+    width: 30%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.hft > img {
+    width: 100%;
+    margin: 0;
+    transition: all 300ms linear;
+  }
+  div.container > div.content > div.ax > div.hft > img:hover {
+    opacity: 0.4;
+  }
+  div.container > div.content > div.ax > div.hft > span {
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    scale: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.hft > h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.hft > p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.hft > img:hover + span {
+    position: absolute;
+    color: #2e2e2e;
+    bottom: 20px;
+    left: 20px;
+    scale: 2;
+  }
+  div.container > div.content > div.ax > div.hft > img:hover ~ h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.hft > img:hover ~ p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.hsht {
+    width: 30%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.hsht > img {
+    width: 100%;
+    margin: 0;
+    transition: all 300ms linear;
+  }
+  div.container > div.content > div.ax > div.hsht > img:hover {
+    opacity: 0.4;
+  }
+  div.container > div.content > div.ax > div.hsht > span {
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    scale: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.hsht > h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.hsht > p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.hsht > img:hover + span {
+    position: absolute;
+    color: #2e2e2e;
+    bottom: 20px;
+    left: 20px;
+    scale: 2;
+  }
+  div.container > div.content > div.ax > div.hsht > img:hover ~ h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.hsht > img:hover ~ p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.noh {
+    width: 30%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.noh > img {
+    width: 100%;
+    margin: 0;
+    transition: all 300ms linear;
+  }
+  div.container > div.content > div.ax > div.noh > img:hover {
+    opacity: 0.4;
+  }
+  div.container > div.content > div.ax > div.noh > span {
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    scale: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.noh > h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.noh > p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.noh > img:hover + span {
+    position: absolute;
+    color: #2e2e2e;
+    bottom: 20px;
+    left: 20px;
+    scale: 2;
+  }
+  div.container > div.content > div.ax > div.noh > img:hover ~ h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.noh > img:hover ~ p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.dah {
+    width: 30%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.dah > img {
+    width: 100%;
+    margin: 0;
+    transition: all 300ms linear;
+  }
+  div.container > div.content > div.ax > div.dah > img:hover {
+    opacity: 0.4;
+  }
+  div.container > div.content > div.ax > div.dah > span {
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    scale: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.dah > h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.dah > p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.dah > img:hover + span {
+    position: absolute;
+    color: #2e2e2e;
+    bottom: 20px;
+    left: 20px;
+    scale: 2;
+  }
+  div.container > div.content > div.ax > div.dah > img:hover ~ h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.dah > img:hover ~ p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.yzdh {
+    width: 30%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.yzdh > img {
+    width: 100%;
+    margin: 0;
+    transition: all 300ms linear;
+  }
+  div.container > div.content > div.ax > div.yzdh > img:hover {
+    opacity: 0.4;
+  }
+  div.container > div.content > div.ax > div.yzdh > span {
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    scale: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.yzdh > h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.yzdh > p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.yzdh > img:hover + span {
+    position: absolute;
+    color: #2e2e2e;
+    bottom: 20px;
+    left: 20px;
+    scale: 2;
+  }
+  div.container > div.content > div.ax > div.yzdh > img:hover ~ h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.yzdh > img:hover ~ p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.dvzdh {
+    width: 30%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+  }
+  div.container > div.content > div.ax > div.dvzdh > img {
+    width: 100%;
+    margin: 0;
+    transition: all 300ms linear;
+  }
+  div.container > div.content > div.ax > div.dvzdh > img:hover {
+    opacity: 0.4;
+  }
+  div.container > div.content > div.ax > div.dvzdh > span {
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    scale: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.dvzdh > h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.dvzdh > p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0;
+    filter: drop-shadow(1px 1px 1px gray);
+  }
+  div.container > div.content > div.ax > div.dvzdh > img:hover + span {
+    position: absolute;
+    color: #2e2e2e;
+    bottom: 20px;
+    left: 20px;
+    scale: 2;
+  }
+  div.container > div.content > div.ax > div.dvzdh > img:hover ~ h2 {
+    font-size: 28px;
+    color: #2e2e2e;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    opacity: 1;
+  }
+  div.container > div.content > div.ax > div.dvzdh > img:hover ~ p {
+    font-size: 24px;
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 1;
+  }
+}
